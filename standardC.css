@@ -1,0 +1,50 @@
+
+
+.body{
+
+}
+
+ .card{ 
+   background-color: rgb(134, 128, 128);
+   padding: 0px;
+   margin: 5% auto;
+   text-align: center;
+   width: 50%;
+
+}
+
+.btn-grouptop{
+    background-color: blue;
+    border-radius: 8px;
+    /* column-width: 100px; */
+    padding: 32px 16px;;
+    /* background-color: aqua; */
+    /* color: darkgray; */
+    
+
+    /* text-align: center; */
+}
+
+.btn-group2{
+    color: rgb(41, 212, 56);
+    /* border-radius: 50%; */
+    /* column-width: 20px; */
+    padding-block: 2%;
+    font-size: 20px;
+    /* background-color: brown; */
+}
+
+.btn-group3{
+    padding-block: 2%;
+    /* background-color: red; */
+}
+
+.btn-group4{
+    padding-block: 2%;
+    /* background-color: burlywood */
+}
+
+.btn-group5{
+    padding-block: 2%;
+    /* background-color:navy; */
+}

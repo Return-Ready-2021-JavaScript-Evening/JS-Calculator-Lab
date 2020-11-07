@@ -1,15 +1,73 @@
 <!DOCTYPE html >
   <html>
-    <title>StandardCalculator</title>
+
+    <head>
+      <title>StandardCalculator</title>
+        <link rel="stylesheet" href="standardC.css">
+    </head>
+
       <body>
-        <form>
-        <!-- Standard Calc -->
-          <p>
-            Standard | Scientific
-          </p>
+        
+        <div class="card">
 
+          <form>
+            <!-- Standard Calc Title -->
+              <div>
+                <p>
+                  <!-- <a href="Standard"></a> --> Standard | Scientific
+                </p>
+              </div>
 
+            <!-- Numerical Input  --> 
+              <div>     
+                <label hidden>number field</label> 
+                  <input number="text" name="number field" id="number field" maxlength="10" value="0"></input>
+              </div>
 
-        </form>  
+            <!-- Buttons top row -->
+              <div class="btn-grouptop">
+                <button>(</button>
+                <button>)</button>
+                <button>%</button>
+                <button>AC</button> 
+              </div>
+
+            <!-- Buttons 2nd row -->
+              <div class="btn-group2">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>&#247;</button>
+              </div>
+            
+            <!-- Buttons 3rd row -->
+              <div class="btn-group3">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>x</button>
+              </div>
+
+            <!-- Buttons 4th row -->
+              <div class="btn-group4">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>-</button>
+              </div>
+
+            <!-- Buttons 5th row -->
+              <div class="btn-group5">
+                <button>0</button>
+                <button>.</button>
+                <button>=</button>
+                <button>+</button>
+              </div> 
+
+          </form>
+
+        </div>  
+        
       </body>
+
   </html>
