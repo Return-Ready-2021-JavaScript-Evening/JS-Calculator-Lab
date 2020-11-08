@@ -42,6 +42,10 @@ input[type="buttonsup"] {
     font-size: 44px;
 }
 
+input:hover {
+    background-color: slategray;
+}
+
 .square {
     border: 1px solid rgb(50, 50, 50);
     border-radius: 10px;
@@ -119,6 +123,10 @@ input[type="text"] {
     text-align: center;
 }
 
+div[class="sup"]:hover {
+    background-color: slategray;
+}
+
 input[class="equals"] {
     background-color: rgb(16, 115, 105);
     color: whitesmoke;
@@ -128,4 +136,8 @@ input[class="equals"] {
     height: 100%;
     font-weight: 200;
     font-size: 44px;
+}
+
+input[class="equals"]:hover {
+    background-color: slategray;
 }
