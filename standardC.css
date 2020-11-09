@@ -9,10 +9,11 @@ p {
     margin-left: 35px;
     padding-left: 15px;
     padding-top: 15px;
+    color: rgb(249, 249, 252);
   }
 
 .card{ 
-   background-color: gray;
+   background-color: rgb(87, 23, 23);
    margin-right: auto;
    margin-left: auto;
    border-radius: 5%;
@@ -22,7 +23,7 @@ p {
 
 .input { 
     text-align: right;
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 45px;
     margin-right: 45px;
     
@@ -101,12 +102,12 @@ button:focus {
     margin-right: 35px;
 }    
 
-#skyblue {
+#greybtn {
     background-color: rgb(95, 95, 109);
     
 }
 
-#darkgray {
-    background-color: rgb(194, 124, 67);
+#blue {
+    background-color: rgb(20, 33, 109);
     
 }
