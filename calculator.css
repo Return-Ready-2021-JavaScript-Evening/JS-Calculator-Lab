@@ -1,0 +1,46 @@
+
+.card {
+    background-color: white;
+    font-weight: 500;
+    width: fit-content;
+}
+
+input {
+    width: 45%;
+    border-color: lightgrey;
+    border-width: 1px;
+    height: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#inputSci {
+    width: 79%;
+    max-width: 630px;
+    min-width: 415px;
+}
+
+#inputSta {
+    max-width: 355px;
+    min-width: 230px;
+}
+
+button {
+    width: 10%;
+    height: 40px;
+    border-color: lightgrey;
+    max-width: 80px;
+    font-weight: 475;
+}
+
+#raddeg {
+    width: 21.5%;
+    height: 40px;
+    max-width: 170px;
+    min-width: 110px;
+}
+
+.equalButton {
+    color: white;
+    font-weight: 900;
+}
