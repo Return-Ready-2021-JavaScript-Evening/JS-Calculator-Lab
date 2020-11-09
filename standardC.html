@@ -7,62 +7,67 @@
     </head>
 
       <body>
-        
-        <div class="card">
+       
+        <div class="card" style="width: 50rem; height: 50rem">
+          <div class="card-body">
+
+                  <div class="container"> 
+
+                      <div class="calculator_display"></div>
+
 
           <form>
             <!-- Standard Calc Title -->
               <div>
-                <p>
-                  <!-- <a href="Standard"></a> --> Standard | Scientific
-                </p>
+                <p>Standard | Scientific</p>
+                  <!-- <a href="Standard"></a> -->
               </div>
 
             <!-- Numerical Input  --> 
               <div>     
                 <label hidden>number field</label> 
-                  <input number="text" name="number field" id="number field" maxlength="10" value="0"></input>
+                  <input class="input" number="text" name="number field" id="number field" maxlength="10" value="0"></input>
               </div>
 
             <!-- Buttons top row -->
-              <div class="btn-grouptop">
-                <button>(</button>
-                <button>)</button>
-                <button>%</button>
-                <button>AC</button> 
-              </div>
+              <span class="btn-grouptop">
+                <button class="button" id="skyblue"  >(</button>
+                <button class="button" id="skyblue">)</button>
+                <button class="button" id="skyblue">%</button>
+                <button class="button" id="skyblue">AC</button> 
+              </span>
 
             <!-- Buttons 2nd row -->
-              <div class="btn-group2">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>&#247;</button>
-              </div>
+              <span class="btn-group2">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button" id="skyblue">&#247;</button>
+              </span>
             
             <!-- Buttons 3rd row -->
-              <div class="btn-group3">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>x</button>
-              </div>
+              <span class="btn-group3">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button" id="skyblue">x</button>
+              </span>
 
             <!-- Buttons 4th row -->
-              <div class="btn-group4">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>-</button>
-              </div>
+              <span class="btn-group4">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button" id="skyblue">-</button>
+              </span>
 
             <!-- Buttons 5th row -->
-              <div class="btn-group5">
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
-                <button>+</button>
-              </div> 
+              <span class="btn-group5">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button" id="darkgray">=</button>
+                <button class="button" id="skyblue">+</button>
+              </span> 
 
           </form>
 

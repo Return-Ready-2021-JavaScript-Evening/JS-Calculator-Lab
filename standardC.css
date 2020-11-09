@@ -1,50 +1,116 @@
 
+.container {
+    text-align: inline;
+}
 
+
+p {
+    font-size: 40px;
+    margin-left: 35px;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  
 .body{
 
 }
 
- .card{ 
-   background-color: rgb(134, 128, 128);
-   padding: 0px;
-   margin: 5% auto;
-   text-align: center;
-   width: 50%;
-
+.card{ 
+   background-color: gray;
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 5%;
+   width: 10;
+   
 }
 
-.btn-grouptop{
-    background-color: blue;
-    border-radius: 8px;
-    /* column-width: 100px; */
-    padding: 32px 16px;;
-    /* background-color: aqua; */
-    /* color: darkgray; */
+.input { 
+    text-align: right;
+    font-size: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
     
-
-    /* text-align: center; */
+    display: inline-block;
+    border-radius: 3%;
+    width: 665px;
+    height: 70px;  
 }
 
-.btn-group2{
-    color: rgb(41, 212, 56);
-    /* border-radius: 50%; */
-    /* column-width: 20px; */
-    padding-block: 2%;
-    font-size: 20px;
-    /* background-color: brown; */
+
+
+button:focus {
+    color: white;
+    background-color: orange;
+  }
+
+
+.button:hover{
+    background-color: blue;
+    transition-duration: 0.4s;
 }
 
-.btn-group3{
-    padding-block: 2%;
-    /* background-color: red; */
+
+
+.button{
+    margin: 5px 15px 5px 5px;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    padding: 30px;
+    border-radius: 10%;
+    background-color: rgb(143, 55, 29);
+    color: rgb(249, 249, 252);
+ 
+}
+   
+
+
+#newblue:hover {
+    background-color: blue;
+    transition-duration: 0.4s;
+
 }
 
-.btn-group4{
-    padding-block: 2%;
-    /* background-color: burlywood */
+.btn-grouptop {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+    
+.btn-group2 {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+    
 }
 
-.btn-group5{
-    padding-block: 2%;
-    /* background-color:navy; */
+.btn-group3 {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+  
+
+.btn-group4 {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+} 
+
+.btn-group5 {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 35px;
+}    
+
+#skyblue {
+    background-color: rgb(95, 95, 109);
+    
+}
+
+#darkgray {
+    background-color: rgb(194, 124, 67);
+    
 }
