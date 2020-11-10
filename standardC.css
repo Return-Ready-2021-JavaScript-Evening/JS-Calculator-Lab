@@ -33,14 +33,6 @@ p {
     height: 70px;  
 }
 
-
-
-button:focus {
-    color: white;
-    background-color: orange;
-  }
-
-
 .button:hover{
     background-color: blue;
     transition-duration: 0.4s;
@@ -61,53 +53,17 @@ button:focus {
  
 }
    
-
-
-#newblue:hover {
-    background-color: blue;
-    transition-duration: 0.4s;
-
+.numeric-button {
+    background-color: gray;
 }
 
-.btn-grouptop {
+.numeric-button-lightgray {
+    background-color: rgb(184, 184, 184);
+    color: rgb(143, 55, 29);
+}
+
+.btn-group {
     display: inline-block;
     margin-left: 35px;
     margin-right: 35px;
-    
-}
-    
-.btn-group2 {
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-    
-}
-
-.btn-group3 {
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-}
-  
-
-.btn-group4 {
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-} 
-
-.btn-group5 {
-    display: inline-block;
-    margin-left: 35px;
-    margin-right: 35px;
-}    
-
-#greybtn {
-    background-color: rgb(95, 95, 109);
-    
-}
-
-#blue {
-    background-color: rgb(20, 33, 109);
-    
 }
