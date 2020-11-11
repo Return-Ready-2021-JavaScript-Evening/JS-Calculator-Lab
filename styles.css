@@ -1,0 +1,31 @@
+.calculator_keys_standard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+
+}
+
+.calculator_keys_scientific {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid: float;
+}
+
+.calculator {
+    border-style: solid;
+    
+}
+
+.calculator_display {
+    position: right;
+}
+
+html {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+h1 {
+    font-size: 20px;
+}
