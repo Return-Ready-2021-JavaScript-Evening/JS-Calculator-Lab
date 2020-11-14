@@ -68,7 +68,7 @@
 
 
 
-.trow{
+.buttonrow{
     margin: 50px 20px 50px 20px;
     padding: 5% 5% 5% 5%; 
     position: relative;
@@ -79,50 +79,16 @@
 }
 
 
-
-.srow{
-    margin: 50px 20px 50px 20px;
-    padding: 5% 5% 5% 5%; 
-    position: relative;
-  
-    
-
-
-}
-
-
-.rrow{
-    margin: 50px 20px 50px 20px;
-    padding: 5% 5% 5% 5%; 
-    position: relative;
-   
-    
-
-
-}
-
-
-.frow{
-    margin: 50px 20px 50px 20px;
-    padding: 5% 5% 5% 5%; 
-    position: relative;
-    
-    
-
-
-}
-
-.grow{
-    margin: 50px 20px 50px 20px;
-    padding: 5% 5% 5% 5%;  
-    position: relative;
-    
-    
-
-
-}
 
 #purp{
+background-color: purple ;
+
+}
+
+
+
+
+#purp:hover{
 
 background-color: #BF05F2;
 
