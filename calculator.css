@@ -5,8 +5,11 @@
     width: fit-content;
 }
 
+.row {
+    width: 100%;
+}
+
 input {
-    width: 45%;
     border-color: lightgrey;
     border-width: 1px;
     height: 40px;
@@ -15,29 +18,30 @@ input {
 }
 
 #input-sci {
-    width: 79%;
-    max-width: 630px;
-    min-width: 415px;
+    width: 90%;
 }
 
 #input-sta {
-    max-width: 355px;
-    min-width: 230px;
+    width: 83%;
 }
 
 button {
-    width: 10%;
     height: 40px;
     border-color: lightgrey;
-    max-width: 80px;
     font-weight: 475;
 }
 
+.button-sci {
+    width: 11%;
+}
+
+.button-sta {
+    width: 20%;
+}
+
 #rad-deg {
-    width: 21.5%;
+    width: 25%;
     height: 40px;
-    max-width: 170px;
-    min-width: 110px;
 }
 
 .equal-button {
