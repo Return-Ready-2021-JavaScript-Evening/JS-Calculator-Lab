@@ -1,4 +1,4 @@
-
+/* container */
 .container {
     text-align: inline;
 }
@@ -12,6 +12,8 @@ p {
     padding-top: 15px;
     color: rgb(249, 249, 252);
   }
+
+/* card */
 
 .card{ 
    background-color: gray; /*(87, 23, 23) */
@@ -29,6 +31,7 @@ p {
     font-size: 50px;
     margin-left: 45px;
     margin-right: 45px;
+    margin-bottom: 25px;
     
     display: inline-block;
     border-radius: 3%;
@@ -36,12 +39,14 @@ p {
     height: 70px;  
 }
 
+/* button hover */
+
 .button:hover{
     background-color: blue;
     transition-duration: 0.4s;
 }
 
-/* All Buttons */
+/* All numeric Buttons */
 
 .button{
     margin: 5px 15px 5px 5px;
@@ -56,13 +61,16 @@ p {
  
 }
    
-.numeric-button {
+/* nonnumeric buttons top & right */
+
+.nonnumeric-button {
     background-color: rgb(87, 23, 23);
 }
+/* nonnumeric = button  */
 
-.numeric-button-lightgray {
+.equal-button {
     background-color: rgb(184, 184, 184);
-    color: rgb(87, 23, 23); /* (87, 23, 23) */
+    color: rgb(87, 23, 23); (87, 23, 23)
 }
 
 /* Buttons are grouped by rows. top row, 2nd row, 3rd row, 4th row & 5th row */
