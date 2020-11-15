@@ -1,0 +1,41 @@
+/* container */
+
+.grid-container {
+    text-align: inline;
+}
+
+/* Standard | Scienctific */
+
+p {
+    font-size: 40px;
+    margin-left: 35px;
+    padding-left: 15px;
+    padding-top: 15px;
+    color: rgb(249, 249, 252);
+  }
+
+/* card */
+
+.card{ 
+   background-color: gray; /*(87, 23, 23) */
+   margin-right: auto;
+   margin-left: auto;
+   border-radius: 5%;
+   width: 10;
+   
+}
+
+/* Numerical Input */
+
+.input { 
+    text-align: right;
+    font-size: 50px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+    
+    display: inline-block;
+    border-radius: 3%;
+    width: 665px;
+    height: 70px;  
+}
