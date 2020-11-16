@@ -1,14 +1,11 @@
 /* container */
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-gap: 8px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 10px;
-    
+.container {
+    text-align: block;
 }
+
+    
+
 
 /* Standard | Scienctific */
 
@@ -16,15 +13,15 @@ p {
     font-size: 40px;
     margin-left: 35px;
     padding-top: 20px;
+    padding-bottom: none;
     color: rgb(249, 249, 252);
   }
 
 /* card */
 
 .card{ 
-   background-color: gray;
-   margin-right: auto;
-   margin-left: auto;
+   background-color: gray; /*(87, 23, 23) */
+   margin: auto;
    border-radius: 5%;
    width: 10;
    
@@ -41,8 +38,8 @@ p {
     
     display: inline-block;
     border-radius: 3%;
-    width: 920px;
-    height: 70px;  
+    width: 500px;
+    /* height: -70px;   */
 }
 
 /* button hover */
@@ -55,22 +52,23 @@ p {
 /* All numeric Buttons */
 
 .button{
-   
+    /* margin: 5px 15px 5px 5px; */
     font-size: 25px;
-    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
     width: 125px;
-    padding: 7px;
+    padding: 10px;
     border-radius: 10%;
     background-color: rgb(143, 55, 29);
-    color: rgb(249, 249, 252); 
+    color: rgb(249, 249, 252);
+ 
 }
-
+   
 /* nonnumeric buttons top row & right column */
 
 .nonnumeric-button {
     background-color: rgb(87, 23, 23);
 }
-
 /* nonnumeric "=" button  */
 
 .equal-button {
@@ -83,4 +81,22 @@ p {
 .period-button {
     background-color: rgb(143, 55, 29);
     color: rgb(249, 249, 252); 
+}
+
+/* Buttons are grouped by rows. top row, 2nd row, 3rd row, 4th row & 5th row */
+
+.btn-group {
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-gap: 8px; */
+    margin-left: 35px;
+    margin-right: 45px;
+    /* margin-bottom: 25px; */
+    /* display: block; */
+    /* margin: auto; */
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    /* padding-right: 30px; */
+    /* width: auto; */
 }

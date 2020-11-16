@@ -10,7 +10,7 @@ p {
     font-size: 40px;
     margin-left: 35px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
     color: rgb(249, 249, 252);
   }
 
@@ -62,16 +62,23 @@ p {
  
 }
    
-/* nonnumeric buttons top & right */
+/* nonnumeric buttons top row & right column */
 
 .nonnumeric-button {
     background-color: rgb(87, 23, 23);
 }
-/* nonnumeric = button  */
+/* nonnumeric "=" button  */
 
 .equal-button {
     background-color: rgb(184, 184, 184);
     color: rgb(87, 23, 23); 
+}
+
+/* nonnumeric "period" button  */
+
+.period-button {
+    background-color: rgb(143, 55, 29);
+    color: rgb(249, 249, 252); 
 }
 
 /* Buttons are grouped by rows. top row, 2nd row, 3rd row, 4th row & 5th row */
