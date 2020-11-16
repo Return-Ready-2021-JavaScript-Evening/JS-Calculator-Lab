@@ -1,0 +1,64 @@
+.container{
+    border: rgba(145, 104, 155, 0.548);
+    border-style: solid;
+    background-color: rgb(131, 179, 171);
+    position: absolute;
+    background-size: cover;
+
+    }
+
+
+h1{ 
+    font-size: 1em; 
+    color: white  ;
+}
+a:hover{
+    color: teal;
+}
+input {
+    width: 98%;
+    height: 35px;
+
+}
+
+
+body{
+    text-align: center;
+}
+
+
+button{
+    background-color: lightgray;
+    text-align: center;
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+   
+
+   }
+
+button:hover {
+    background-color: grey;
+}
+
+.frow{
+font-size: large;
+
+
+}
+.srow{
+    font-size: large;
+    
+
+}
+
+.trow{
+font-size: large;
+}
+
+
+.btm{
+     font-size: large;
+     height: 70px;
+    
+ }
