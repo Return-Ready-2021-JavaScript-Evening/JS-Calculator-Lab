@@ -1,0 +1,50 @@
+
+.card {
+    background-color: white;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.row {
+    width: 100%;
+}
+
+input {
+    border-color: lightgrey;
+    border-width: 1px;
+    height: 40px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#input-sci {
+    width: 90%;
+}
+
+#input-sta {
+    width: 83%;
+}
+
+button {
+    height: 40px;
+    border-color: lightgrey;
+    font-weight: 475;
+}
+
+.button-sci {
+    width: 11%;
+}
+
+.button-sta {
+    width: 20%;
+}
+
+#rad-deg {
+    width: 25%;
+    height: 40px;
+}
+
+.equal-button {
+    color: white;
+    font-weight: 900;
+}
